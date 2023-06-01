@@ -20,21 +20,15 @@ protocol WeatherViewModelType {
 class WeatherViewModel: WeatherViewModelType {
     
     private var weatherService: WeatherService!
-    private(set) var weatherData : Welcome? {
-        didSet {
-            self.bindWeatherViewModelToController()
-        }
-    }
+    private(set) var weatherData : Welcome?
+  
+    
     
     private var weekWeatherService: WeatherService!
-    private(set) var weekWeatherData : WeekWelcome? {
-        didSet {
-            self.bindWeekWeatherViewModelController()
-        }
-    }
+    private(set) var weekWeatherData : WeekWelcome?
     
-    var bindWeekWeatherViewModelController : (() -> ()) = {}
-    var bindWeatherViewModelToController : (() -> ()) = {}
+    
+    
     var updateSearch: ((Welcome) -> ())?
     
     var updateWeek: ((WeekWelcome) -> ())?

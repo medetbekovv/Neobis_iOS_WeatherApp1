@@ -160,7 +160,7 @@ class ViewController: UIViewController {
         }
     }
     
-    func getImageForWeatherCondition(_ weatherCondition: weekMainEnum) -> UIImage? {
+    func getImageForWeatherCondition(_ weatherCondition: WeekMainEnum) -> UIImage? {
         switch weatherCondition {
         case .clouds:
             return UIImage(named: "cloud")

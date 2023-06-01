@@ -25,13 +25,13 @@ struct WeekCoord: Codable {
 /// MARK: - List
 struct WeekList: Codable {
     let dt: Int
-    let main: weekMainClass
-    let weather: [weekWeather]
-    let clouds: weekClouds
-    let wind: weekWind
+    let main: WeekMainClass
+    let weather: [WeekWeather]
+    let clouds: WeekClouds
+    let wind: WeekWind
     let visibility: Int
     let pop: Double
-    let sys: weekSys?
+    let sys: WeekSys?
     let dtTxt: String
     let rain: Rain?
 
@@ -83,8 +83,8 @@ enum Pod: String, Codable {
 // MARK: - Weather
 struct WeekWeather: Codable {
     let id: Int
-    let main: weekMainEnum
-    let description: weekDescription
+    let main: WeekMainEnum
+    let description: WeekDescription
     let icon: String
 }
 
