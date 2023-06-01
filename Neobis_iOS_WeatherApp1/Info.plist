@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleGetInfoString</key>
+	<string></string>
+	<key>CFBundleSignature</key>
+	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Montserrat-Black</string>
+		<string>Montserrat-BlackItalic</string>
+		<string>Montserrat-Bold</string>
+		<string>Montserrat-BoldItalic</string>
+		<string>Montserrat-ExtraBold</string>
+		<string>Montserrat-ExtraBoldItalic</string>
+		<string>Montserrat-Italic-VariableFont_wght</string>
+		<string>Montserrat</string>
+		<string>Montserrat-ExtraLight</string>
+		<string>Montserrat-ExtraLightItalic</string>
+		<string>Montserrat-Italic</string>
+		<string>Montserrat-Light</string>
+		<string>Montserrat-LightItalic</string>
+		<string>Montserrat-Medium</string>
+		<string>Montserrat-MediumItalic</string>
+		<string>Montserrat-Regular</string>
+		<string>Montserrat-SemiBold</string>
+		<string>Montserrat-SemiBoldItalic</string>
+		<string>Montserrat-Thin</string>
+		<string>Montserrat-ThinItalic</string>
+	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>UIWindowSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Main</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>
