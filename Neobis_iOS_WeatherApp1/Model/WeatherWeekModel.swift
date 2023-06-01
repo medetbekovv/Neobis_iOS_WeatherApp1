@@ -18,7 +18,7 @@ struct WeekCity: Codable {
 }
 
 // MARK: - Coord
-struct weekCoord: Codable {
+struct WeekCoord: Codable {
     let lat, lon: Double
 }
 
