@@ -44,12 +44,12 @@ struct WeekList: Codable {
 
 
 // MARK: - Clouds
-struct weekClouds: Codable {
+struct WeekClouds: Codable {
     let all: Int
 }
 
 // MARK: - MainClass
-struct weekMainClass: Codable {
+struct WeekMainClass: Codable {
     let temp, feelsLike, tempMin, tempMax: Double
     let pressure, seaLevel, grndLevel, humidity: Int
     let tempKf: Double
@@ -71,7 +71,7 @@ struct weekMainClass: Codable {
 typealias Rain = [String: Double]
 
 // MARK: - Sys
-struct weekSys: Codable {
+struct WeekSys: Codable {
     let pod: Pod
 }
 
@@ -81,14 +81,14 @@ enum Pod: String, Codable {
 }
 
 // MARK: - Weather
-struct weekWeather: Codable {
+struct WeekWeather: Codable {
     let id: Int
     let main: weekMainEnum
     let description: weekDescription
     let icon: String
 }
 
-enum weekDescription: String, Codable {
+enum WeekDescription: String, Codable {
     case brokenClouds = "broken clouds"
     case clearSky = "clear sky"
     case fewClouds = "few clouds"
@@ -97,7 +97,7 @@ enum weekDescription: String, Codable {
     case scatteredClouds = "scattered clouds"
 }
 
-enum weekMainEnum: String, Codable {
+enum WeekMainEnum: String, Codable {
     case clear = "Clear"
     case clouds = "Clouds"
     case rain = "Rain"
@@ -106,7 +106,7 @@ enum weekMainEnum: String, Codable {
 
 
 // MARK: - Wind
-struct weekWind: Codable {
+struct WeekWind: Codable {
     let speed: Double
     let deg: Int
     let gust: Double
